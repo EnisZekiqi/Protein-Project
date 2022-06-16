@@ -1,0 +1,106 @@
+.first {}
+
+
+.protein {
+    margin-left: 530px;
+    margin-right: 350px;
+}
+
+img {}
+
+h2 {
+    color: aliceblue;
+    width: auto;
+
+}
+
+i {
+    margin: 1px;
+
+}
+
+input {
+
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 5px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.vital {
+
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+.gold {}
+
+.gold2 {
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+.whey {
+    margin-left: 140px;
+
+
+}
+
+.text {
+    display: flex;
+}
+
+.second-text {
+    margin-left: 150px;
+
+    width: 40%;
+}
+
+.first-text {
+    margin-left: 50px;
+}
+
+.me-shume {
+    margin-left: 60px;
+}
+
+.skip {}
+
+a {}
+
+.contact {
+    margin-left: 1200px;
+}
+
+select {
+    max-width: fit-content;
+    border-radius: 12px;
+    background-color: transparent;
+}
+
+input {
+    border: 1px solid black;
+}
+
+.select {
+    background-color: rgba(0, 0, 255, 0);
+    color: transparent;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    background-color: rgba(22, 60, 94, 0.74);
+
+}
+
+.quantity {}
+
+.qmimi {
+
+    width: fit-content;
+}

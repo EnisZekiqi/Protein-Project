@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="syntax.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <title>Vital Proteins</title>
+    <style>
+        body {
+            background-image: url(images/shape.svg);
+            background-size: 100%;
+            background-position: 46% 4%;
+        }
+    </style>
+
+</head>
+
+
+
+<body>
+
+    <div class="vital">
+        <a href="index.html"><img class="protein" src="images/imageedit_8_5415727105.png" alt="" width="220px"></a>
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+        <i class="bi bi-search"></i><i class="bi bi-person-fill"></i><i class="bi bi-cart-fill"></i>
+
+    </div>
+
+    <div class="navbar">
+        <a href="kategorit.html">
+            <h2 class="font-size-4 fw-italic fw-light text-info">Kategoritë</h2>
+        </a>
+        <br><br><br>
+        <a href="qellimi.html">
+            <h2 class="font-size-4 fw-italic fw-light text-info">Qëllimi</h2>
+        </a>
+        <br><br><br>
+        <a href="brendet.html">
+            <h2 class="font-size-1 fw-italic fw-light text-info">Brendet</h2>
+        </a>
+    </div>
+
+
+
+
+    </div>
+    <br><br>
+    <div class="text">
+        <div class="first-text">
+            <h2 class="font-size-4 fw-italic fw-light text-info">Whey Gold Standard</h2><br>
+            <h5 class="font-size-4 fw-italic fw-light text-info">Ndihmon në ndërtimin dhe mirëmbajtjen e muskujve.</h5>
+        </div>
+        <div class="whey">
+            <a href="me-shume.html"><img src="images/gold whey.png" alt="" width="250px"></a>
+        </div>
+        <div class="second-text">
+            <h2 class="font-size-4 fw-italic fw-light text-info">Pluhur i proteinave</h2>
+            <h2 class="font-size-4 fw-italic fw-light text-dark">Whey më i shitur në botë</h2>
+            <div class="skip">
+                <a href="next-page.html"><button type="button" class="btn btn-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                            class="bi bi-arrow-right-square" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z">
+                            </path>
+                        </svg>
+                    </button></i></a>
+
+            </div>
+            <div class="me-shume">
+                <a href="me-shume.html"><button type="button" class="btn btn-outline-dark">Më shumë</button></a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="gold2">
+        <a href="me-shume.html"><button type="button" class="btn btn-outline-dark">Blej Tani</button></a>
+        <span class="font-size-1 fw-italic fw-light text-secondary">Rekomandimi</span>
+        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+            class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+
+    </div>
+
+    <div class="contact">
+        <button type="button" class="btn btn-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-messenger"
+                viewBox="0 0 16 16">
+                <path
+                    d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z">
+                </path>
+            </svg>
+            Contact Us
+        </button>
+    </div>
+
+    <script>
+        function myFunction() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myUL");
+            li = ul.getElementsByTagName("li");
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+
+</body>
+
+
+
+
+</html>
